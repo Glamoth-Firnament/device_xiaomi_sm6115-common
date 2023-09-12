@@ -607,6 +607,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lights.bengal
 
+# Logging
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.log.tag.OpenGLRenderer=S
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
