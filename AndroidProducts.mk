@@ -6,12 +6,12 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/derp_citrus.mk \
-    $(LOCAL_DIR)/lineage_lime.mk
+    $(LOCAL_DIR)/aosp_lime.mk
 
 COMMON_LUNCH_CHOICES := \
     derp_citrus-user \
     derp_citrus-userdebug \
     derp_citrus-eng \
-    lineage_lime-user \
-    lineage_lime-userdebug \
-    lineage_lime-eng
+    aosp_lime-user \
+    aosp_lime-userdebug \
+    aosp_lime-eng
