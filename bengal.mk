@@ -292,7 +292,7 @@ SPAMMY_LOG_TAGS := \
     vendor.qti.vibrator.chime \
     TransactionTracing \
     vendor.qti.vibrator.service \
-    vendor.qti.vibrator.perf
+    vendor.qti.vibrator.perf \
     vendor.qti.vibrator \
     vendor.qti.hardware.display.composer-service \
     vendor.xiaomi.sensor.citsensorservice@2.0-service
