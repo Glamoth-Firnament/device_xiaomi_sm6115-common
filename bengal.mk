@@ -32,14 +32,6 @@ PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 # modules.
 PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
 
-# Use a profile based boot image for this device. Note that this is currently a
-# generic profile and not Android Go optimized.
-PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
-PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := art/build/boot/boot-image-profile.txt
-
-# Do not spin up a separate process for the network stack on go devices, use an in-process APK.
-PRODUCT_PACKAGES += com.android.tethering.inprocess
-
 # Disable dex2oat debug
 USE_DEX2OAT_DEBUG := false
 
@@ -298,6 +290,7 @@ SPAMMY_LOG_TAGS := \
     sensors \
     OpenGLRenderer \
     vendor.qti.vibrator.chime \
+    TransactionTracing \
     vendor.qti.vibrator.service \
     vendor.qti.vibrator.perf
     vendor.qti.vibrator \
